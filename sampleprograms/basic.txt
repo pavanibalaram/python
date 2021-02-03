@@ -1,0 +1,103 @@
+SYNTAX:
+
+COMPLEX NUMBERS
+Syntax:
+<variable name>=complex(x,y)
+OR
+<variable name>=x+yj
+Here, x is the real part and y is the imaginary part j plays role of iota
+
+
+
+>>> str1 = "Leapx"
+>>> id(str1) # it will give location of memory address
+44909408
+>>>
+
+
+
+>>> name = "The Avengers"
+>>> name[::2]
+O/p : 'TeAegr'
+>>>
+
+
+count()
+The syntax for the method is as follows:
+str1.count(substr [, start [, end]])
+The count method returns the number of occurrences of the substring substr in string
+str1. By using the parameter start and end you can obtain a slice of str1.
+Consider the following example:
+>>> str1 = 'The Avengers'
+>>> str1.count("e")
+3
+>>> str1.count("e",5,12)
+2
+>>>
+
+
+FUNCTIONS OF STRING
+
+str1.lower()
+str1.upper()
+str1.captilise()
+str1.title()  #The title() method returns a copy of the string in which the first character of every word
+of the string is capitalized
+str1.swapcase()
+
+str1.lstrip()
+str1.rstrip()
+str1.strip()
+
+
+*****
+
+
+ljust() method padding will be done on left side
+
+str="Mohit Raj"
+
+str1.ljust(15, "#")
+
+O/p-'Mohit Raj######'
+
+
+str="Mohit Raj"
+
+str.rjust(15, "#")
+
+O/p-'######Mohit Raj'
+
+
+str.center(16, "#")
+o/p-'###Mohit Raj####'
+
+
+zfill|()-method
+
+syntax-str.zfill(width)
+>>> acc_no = "3214567987"
+>>> acc_no.zfill(15)
+'000003214567987'
+
+
+replace()
+The syntax for the method is as follows:
+str.replace(old, new max)
+
+join() method
+
+--->str1.join(seq)
+   1. The space as the separator:
+   >>> name = ["Mohit","raj"]
+   >>> " ".join(name)
+'Mohit raj'
+
+   2. Nothing as separator:
+  >>> "".join(name)
+  'Mohitraj'
+
+
+  
+
+
